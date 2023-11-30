@@ -1,1 +1,32 @@
-node_modules/.bin/acorn
+# Arquivos temporários
+*.pyc
+*.pyo
+__pycache__/
+node_modules/
+
+# Ambiente virtual
+venv/
+env/
+
+# Arquivos de configuração específicos do sistema operacional
+*.DS_Store
+Thumbs.db
+
+# Arquivos de log
+*.log
+
+# Arquivos de banco de dados SQLite
+db.sqlite3
+
+# Arquivos de mídia gerados
+media/
+
+# Dependências instaladas
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+# Arquivos de compilação e distribuição JavaScript
+build/
+dist/
