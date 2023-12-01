@@ -1,7 +1,22 @@
-import React from 'react'
+import React, { useState } from 'react';
+import { Link, Redirect } from 'react-router-dom';
+import { connect } from 'react-redux';
 
-export default function Login() {
+const Login = () => {
+  const [formData, setFormData] = useState({
+    email: '',
+    password: ''
+  })
+
+  const {email, password} = formData
+
+  const onChange = e => {
+    setFormData({...formData, [e.target.name]: e.target.value})
+  }
+
   return (
-    <div>Login</div>
-  )
-}
+    <p></p>
+  );
+};
+
+export default Login;
