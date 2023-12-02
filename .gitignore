@@ -30,3 +30,4 @@ yarn-error.log*
 # Arquivos de compilação e distribuição JavaScript
 build/
 dist/
+.env
