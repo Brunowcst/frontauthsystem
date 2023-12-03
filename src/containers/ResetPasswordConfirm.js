@@ -28,8 +28,8 @@ const ResetPasswordConfirm = ({ reset_password_confirm }) => {
     const token = params.token
 
     if(newpassword === renewpassword) {
-      setRequestSend(true)
       reset_password_confirm(uid, token, newpassword, renewpassword)
+      setRequestSend(true)
     } else {
       console.log('error linha 27')
     }
