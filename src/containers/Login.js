@@ -26,7 +26,7 @@ const Login = ({ login, isAuthenticated }) => {
 
   if (isAuthenticated) {
     return navigate('/')
-  } 
+  }
 
   return (
     <div className='container flex-column mt-5 d-flex align-items-center text-center'>
